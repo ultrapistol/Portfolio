@@ -1,0 +1,93 @@
+#intro{
+    height: calc(100vh -4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bgProfile {
+    position: absolute;
+    z-index: -1;
+    top: 1rem;
+    right: 0;
+    object-fit: cover;
+    height: 45vh;
+    justify-content: flex-end;
+}
+
+.introContent{
+    height: 80vh;
+    width: 100vw;
+    padding: 0.2rem;
+    font-size: 3 rem;
+    display: flex;
+    font-weight: 700;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .Hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+    padding-bottom: -6%;
+ }
+
+ .introName{
+    font-size: 3rem;
+    font-weight: 150;
+    padding-bottom: 0%;
+ }
+
+ .JobIntro{
+    font-size: 2rem;
+    font-weight: 110;
+    color: #C4FF58;
+ }
+
+ .introPara{
+    font-size: medium;
+    font-weight: 100;
+    padding-top: 5%;
+    
+
+ }
+
+ .btnLinkedin, .btnGithub, .btnCurriculum{
+    height: 3rem;
+    width: 3rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    margin-left: 1.4%;
+    
+ }
+
+ .btnGithub{
+    margin-left: 1.6%;
+ }
+
+ .btnLinkedinImg, .btnGithubImg{
+    height: 3rem;
+    width: 3rem;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .btnCurriculumImg{
+    height: 3rem;
+    width: 2.4rem;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ 
+
+ .divButton{
+    display: flex;
+
+    
+ }
