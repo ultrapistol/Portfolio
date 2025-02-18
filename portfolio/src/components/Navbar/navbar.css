@@ -12,6 +12,33 @@
     z-index: 3;
 }
 
+@font-face {
+    font-family: 'NeueHaas';
+    src: url('public/fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+ }
+ 
+ @font-face {
+    font-family: 'ABC-mono';
+    src: url('public/fonts/abc-favorit-mono-book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'NeueHaasXthin';
+    src: url('public/fonts/NeueHaasDisplayThin.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Monorama';
+    src: url('public/fonts/Monorama-Regular') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+ }
+
 .logo{
     height: 2.1rem;
     width: 10rem;
@@ -20,6 +47,9 @@
 .desktopMenuListItem{
     margin: 2.5rem;
     cursor: pointer;
+    font-family: 'NeueHaasXthin';
+    letter-spacing: 3.5px;
+    font-size: 13px;
 }
 
 /* //customizar um pouco mais o hover */
@@ -36,7 +66,10 @@
     align-items: center;
     justify-content: center;
     padding: 0 1rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    font-family: 'Monorama';
+    font-size: medium;
+    cursor: pointer;
 }
 
 .desktopMenuImg {

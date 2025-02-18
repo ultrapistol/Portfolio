@@ -7,6 +7,20 @@
     position: relative;
 }
 
+@font-face {
+   font-family: 'NeueHaas';
+   src: url('public/fonts/NeueHaasDisplayLight.ttf') format('truetype');
+   font-weight: lighter;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'ABC-mono';
+   src: url('public/fonts/abc-favorit-mono-book.otf') format('opentype');
+   font-weight: normal;
+   font-style: normal;
+}
+
 .bgProfile {
     position: absolute;
     z-index: -1;
@@ -29,28 +43,39 @@
 }
 
  .Hello{
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 100;
-    padding-bottom: -6%;
+    padding-bottom: -10%;
+    margin-bottom: -0.9%;
+    font-family: 'ABC-mono';
+    
+
  }
 
  .introName{
     font-size: 3rem;
     font-weight: 150;
     padding-bottom: 0%;
+    font-family: 'NeueHaas';
+    letter-spacing: 0.5px;
  }
 
  .JobIntro{
     font-size: 2rem;
     font-weight: 110;
     color: #C4FF58;
+    font-family: 'NeueHaas';
+    letter-spacing: 0.5px;
  }
 
  .introPara{
     font-size: medium;
     font-weight: 100;
     padding-top: 5%;
-    
+    font-family: 'ABC-mono';
+    letter-spacing: -0.5px;
+    margin-top: 20px;
+    word-spacing: 3.2px;
 
  }
 
@@ -66,7 +91,7 @@
  }
 
  .btnGithub{
-    margin-left: 1.6%;
+    margin-left: 25.6%;
  }
 
  .btnLinkedinImg, .btnGithubImg{
@@ -74,6 +99,7 @@
     width: 3rem;
     align-items: center;
     justify-content: center;
+    margin-top: -20px;
  }
 
  .btnCurriculumImg{
@@ -81,6 +107,7 @@
     width: 2.4rem;
     align-items: center;
     justify-content: center;
+    margin-top: -20px;
 
  }
 
@@ -88,6 +115,25 @@
 
  .divButton{
     display: flex;
-
-    
  }
+
+ .foguete{
+   position: absolute;
+   top: 440px;
+   left: 0px;
+   width: 200px;
+   animation: voar 2.8s linear forwards;
+   z-index: 9999;
+   pointer-events: none;
+ }
+
+ .rastro {
+   position: absolute;
+   height: 2px;
+   background: linear-gradient(90deg,  #E3E4D5, #C4FF58);
+   left: 210px;
+   top: 518px;
+   transform: translateY(-90%);
+   z-index: 9; /* Fica atrás do foguete */
+}
+

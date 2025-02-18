@@ -9,10 +9,10 @@ const Navbar = () => {
     <nav className="navbar">
         <img src={logo} alt="Logo" className='logo' />
         <div className="desktopMenu">
-            <Link className="desktopMenuListItem">Home</Link>
-            <Link className="desktopMenuListItem">Sobre</Link>
-            <Link className="desktopMenuListItem">Projetos</Link>
-            <Link className="desktopMenuListItem">Contatos</Link>
+            <Link className="desktopMenuListItem">HOME</Link>
+            <Link className="desktopMenuListItem">SOBRE</Link>
+            <Link className="desktopMenuListItem">PROJETOS</Link>
+            <Link className="desktopMenuListItem">CONTATOS</Link>
         </div>
         <button className="desktopMenuBtn">
             <img src={contactImage} alt="" className="desktopMenuImg" />Contate-me</button>
