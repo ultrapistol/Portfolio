@@ -9,25 +9,27 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 11;
+    background-color: #272925;
+    opacity: 100%;
 }
 
 @font-face {
     font-family: 'NeueHaas';
-    src: url('public/fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    src: url('fonts/NeueHaasDisplayLight.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
  }
  
  @font-face {
     font-family: 'ABC-mono';
-    src: url('public/fonts/abc-favorit-mono-book.otf') format('opentype');
+    src: url('fonts/abc-favorit-mono-book.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
  }
  @font-face {
     font-family: 'NeueHaasXthin';
-    src: url('public/fonts/NeueHaasDisplayThin.ttf') format('truetype');
+    src: url('fonts/NeueHaasDisplayThin.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
  }
@@ -65,8 +67,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
-    border-radius: 1rem;
+    padding: 0.09rem;
+    border-radius: 0.5rem;
     font-family: 'Monorama';
     font-size: medium;
     cursor: pointer;
@@ -76,5 +78,5 @@
     object-fit: cover;
     height: 1rem;
     width: 1rem;
-    margin: 1rem;
+    margin: 0.7rem;
 }

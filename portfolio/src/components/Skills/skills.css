@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'NeueHaas';
+    src: url('fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+ }
+ 
+ @font-face {
+    font-family: 'ABC-mono';
+    src: url('fonts/abc-favorit-mono-book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: 'NeueHaasXthin';
+    src: url('fonts/NeueHaasDisplayThin.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+ }
+
+ @font-face {
+    font-family: 'Monorama';
+    src: url('public/fonts/Monorama-Regular') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+ }
+
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    background-image: linear-gradient(rgba(0, 0 ,0, 0.000000001), rgba(0, 0 ,0, 0.5)),
+                        url('/colchetes.png');
+    background-size: 100%;
+    background-position: 0 2.8cm;
+    background-repeat: no-repeat;
+}
+
+/* Título */
+.skillTitle {
+    font-size: 2.6rem;
+    font-weight: 500;
+    width: 100%;
+    padding-top: 8rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Monorama';
+    background-image: linear-gradient(to bottom, #3f3f3f, #333332, #383838, #3C3C3C), url('/portfolio/src/assets/degradê.png');
+    color: #c4ff58;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Descrição da skill */
+.skillDesc {
+    font-weight: 200;
+    font-size: 1rem;
+    max-width: 75rem;
+    padding: 1rem 2rem;
+    font-family: 'ABC-Mono';
+    margin-bottom: 1rem;
+    
+    /* Glassmorphism */
+    background: rgba(56, 56, 56, 0.2);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Responsividade sem mexer no fundo */
+@media screen and (max-width: 1024px) {
+    #skills {
+        padding: 0 2rem; /* Ajustando o padding para não afetar a imagem */
+    }
+    
+    .skillTitle {
+        font-size: 2.2rem; /* Ajustando o tamanho da fonte */
+        padding-top: 5rem;
+    }
+    
+    .skillDesc {
+        font-size: 0.95rem;
+        padding: 1rem 1.5rem;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #skills {
+        padding: 0 1.5rem; /* Ajustando o padding */
+    }
+    
+    .skillTitle {
+        font-size: 2rem;
+        padding-top: 4rem;
+    }
+
+    .skillDesc {
+        font-size: 0.9rem;
+        padding: 0.8rem 1.2rem;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #skills {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .skillTitle {
+        font-size: 1.8rem;
+        padding-top: 3rem;
+    }
+    
+    .skillDesc {
+        font-size: 0.8rem;
+        padding: 0.6rem 1rem;
+        max-width: 100%;
+    }
+}
+
+
+.skillBarImg1{
+    height:3.8rem;
+    padding-right: 2rem;
+    object-fit: cover;
+}
+.skillBarImg2{
+    height: 4rem;
+    padding-right: 2rem;
+    object-fit: cover;
+}
+
+.skillBarImg3{
+    height: 4rem;
+    padding-right: 2rem;
+    object-fit: cover;
+
+}
+
+.skillBars {
+    margin: 1.5rem auto;
+    width: 90vw;  /* Garante um bom espaçamento nas laterais */
+    max-width: 65rem;  /* Define o limite da largura máxima */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;  /* Adiciona espaço entre as barras */
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0); /* Inicia sem brilho */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.skillBar {
+    display: flex;
+    align-items: center;
+    
+    width: 100%;  /* Faz com que as barras ocupem toda a largura possível */
+    max-width: 80%;  /* Limita a largura da barra */
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: #232521;
+    font-family: 'NeueHaasXthin';
+    letter-spacing: 1px;
+    font-size: 0.92rem;
+}
+
+/* Título das barras de habilidade */
+.skillbartextTitle {
+    font-family: 'Monorama';
+    color: #c4ff58;
+    margin-bottom: 3.6px;
+    display: flex;
+    width: 100%; /* Garante que o título ocupe toda a largura disponível */
+}
+
+@keyframes ledBorder {
+    0% {
+        box-shadow: 0 0 5px 2px rgba(155, 250, 46, 0.8), 0 0 15px 5px rgba(55, 250, 46, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 10px 3px rgba(155, 250, 46, 0.6), 0 0 25px 7px rgba(155, 250, 46, 0.6);
+    }
+    100% {
+        box-shadow: 0 0 5px 2px rgba(155, 250, 46, 0.8), 0 0 15px 5px rgba(155, 250, 46, 0.8);
+    }
+}
+
+/* Aplicando a animação de borda com LED */
+.skillBar:hover {
+    animation: ledBorder 1.5s infinite;
+}
+
+/* 🔹 Responsividade para tablets e celulares */
+@media screen and (max-width: 1024px) {
+    .skillBars {
+        width: 95vw;
+        max-width: 50rem;
+    }
+    
+    .skillBar {
+        padding: 1.2rem 1.8rem;
+        font-size: 0.85rem;
+    }
+
+    .skillBarImg1, .skillBarImg2, .skillBarImg3{
+        height: 3rem
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skillBars {
+        width: 100%;
+        max-width: 40rem;
+    }
+
+    .skillBar {
+        flex-direction: column; /* Coloca os itens da barra em uma coluna em telas menores */
+        align-items: flex-start;
+        padding: 1rem 1.5rem;
+        font-size: 0.8rem;
+        width: 80%;  /* Garante que a barra ocupe toda a largura disponível */
+    }
+
+    .skillbartextTitle {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .skillBarImg1, .skillBarImg2, .skillBarImg3{
+        height: 2rem;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skillBars {
+        width: 100%;
+        max-width: 80%;
+        padding: 0 1rem;
+    }
+
+    .skillBar {
+        padding: 0.8rem 1rem;
+        font-size: 0.75rem;
+    }
+
+    .skillbartextTitle {
+        font-size: 0.9rem;
+    }
+
+    .skillBarImg1, .skillBarImg2, .skillBarImg3{
+        height: 2rem
+    }
+}

@@ -9,14 +9,14 @@
 
 @font-face {
    font-family: 'NeueHaas';
-   src: url('public/fonts/NeueHaasDisplayLight.ttf') format('truetype');
+   src: url('fonts/NeueHaasDisplayLight.ttf') format('truetype');
    font-weight: lighter;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'ABC-mono';
-   src: url('public/fonts/abc-favorit-mono-book.otf') format('opentype');
+   src: url('fonts/abc-favorit-mono-book.otf') format('opentype');
    font-weight: normal;
    font-style: normal;
 }
@@ -108,6 +108,7 @@
     align-items: center;
     justify-content: center;
     margin-top: -20px;
+    margin-left: 8px;
 
  }
 
@@ -123,7 +124,7 @@
    left: 0px;
    width: 200px;
    animation: voar 2.8s linear forwards;
-   z-index: 9999;
+   z-index: 10;
    pointer-events: none;
  }
 
@@ -136,4 +137,28 @@
    transform: translateY(-90%);
    z-index: 9; /* Fica atrás do foguete */
 }
+
+@media screen and (max-width:840px){
+   .bgProfile{
+      right: -10vw;
+      opacity: 40%;
+   }
+   .introContent{
+      font-size: 10vw;
+   }
+   .Hello{
+      font-size: 4.5vw;
+   }
+   .foguete{
+      opacity: 0%;
+   }
+}
+
+@media screen and (max-width:480px){
+   .bgProfile{
+      right: -30vw;
+      opacity: 40%;
+   }
+}
+
 
