@@ -20,7 +20,7 @@
 
  @font-face {
     font-family: 'Monorama';
-    src: url('public/fonts/Monorama-Regular') format('truetype');
+    src: url('/fonts/Monorama-Regular') format('truetype');
     font-weight: lighter;
     font-style: normal;
  }
@@ -38,7 +38,7 @@
     margin-top: 1%;
     background-image: linear-gradient(rgba(0, 0 ,0, 0.000000001), rgba(0, 0 ,0, 0.5)),
                         url('/colchetes.png');
-    background-size: 100%;
+    background-size: cover;
     background-position: 0 2.8cm;
     background-repeat: no-repeat;
 }
@@ -64,7 +64,7 @@
     max-width: 75rem;
     padding: 1rem 2rem;
     font-family: 'ABC-Mono';
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     
     /* Glassmorphism */
     background: rgba(56, 56, 56, 0.2);
@@ -94,6 +94,7 @@
 @media screen and (max-width: 768px) {
     #skills {
         padding: 0 1.5rem; /* Ajustando o padding */
+        background-size: 120%;
     }
     
     .skillTitle {
@@ -123,6 +124,7 @@
         font-size: 0.8rem;
         padding: 0.6rem 1rem;
         max-width: 100%;
+
     }
 }
 
@@ -260,4 +262,10 @@
     .skillBarImg1, .skillBarImg2, .skillBarImg3{
         height: 2rem
     }
+}
+
+.Quebra{
+    height: 10rem;
+    align-items: center;
+    display: flex;
 }

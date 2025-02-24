@@ -5,7 +5,7 @@ import Development from '../../assets/development.png';
 import Resolution from '../../assets/resolution.png';
 import Quebra from '../../assets/quebra.png';
 import Degrade from '../../assets/degradê.png';
-import Colchetes from '../../../public/colchetes.png';
+import Colchetes from '/colchetes.png';
 
 
 
@@ -40,6 +40,8 @@ Hoje, aplica sua experiência em C#, React, SQL, JavaScript, Python, CSS e HTML 
               <p>Foco em aprimorar soluções e aprender novas técnicas para otimizar o código e melhorar a experiência do usuário.</p>
             </div>
           </div>
+
+          <img src={Quebra} alt="Quebra de pagina" className='Quebra'/>
         </div>
 
     </section>

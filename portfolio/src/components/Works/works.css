@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'NeueHaas';
+    src: url('fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+ }
+ 
+ @font-face {
+    font-family: 'ABC-mono';
+    src: url('fonts/abc-favorit-mono-book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+ }
+#works{
+    background-color: #232323;
+}
+.worksTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #c4ff58;
+    font-family: 'Monorama';
+}
+
+.worksSwiper {
+    width: 90%;
+    max-width: 1000px;
+    padding: 2rem 2rem;
+    
+}
+
+.workSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.workCard {
+    background: rgba(56, 56, 56, 0.2);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    height: 450px;
+    width: 100%;
+    max-width: 270px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    border: 1px solid;
+    border-color: #e3e4d5;
+}
+
+.workCard:hover {
+    transform: scale(1.05);
+}
+
+.workImage {
+    width: 100%;
+    height: 150px;
+    object-fit:contain;
+    border-radius: 10px;
+}
+
+.workTitle {
+    font-size: 1.6rem;
+    margin: 1rem 0 0.5rem;
+    color: #e3e4d5;
+    font-family: 'ABC-mono';
+}
+
+.workDescription {
+    font-size: 1rem;
+    color: #e3e4d5;
+    margin-bottom: 0.5rem;
+    font-family: "NeueHaas";
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+
+.workTechnologies {
+    font-size: 0.9rem;
+    color: #c4ff58;
+    font-family: 'ABC-mono';
+    margin-bottom: 0.8rem;
+}
+
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+    color: #e3e4d5; 
+
+}
+
+
+.swiper-pagination-bullet {
+    background: #555; 
+    opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+    background: #e3e4d5; 
+    opacity: 1;
+}
+
+.topo{
+    font-family: 'Monorama';
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.botão{
+    background: #232323;
+    background-color: #232323;
+    color: #e3e4d5;
+    height: 1.4rem;
+    width: 10rem;
+    font-family: "NeueHaas";
+    letter-spacing: 0.4rem;
+    border: 1px #e3e4d5 solid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.botão:hover {
+    transform: scale(1.05);
+    background-color: #e3e4d5; 
+    color: #232323; 
+    border-color: #232323;
+    font-weight: bold;
+}
