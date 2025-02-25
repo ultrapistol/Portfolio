@@ -11,11 +11,12 @@ import Farmecho3 from '../../assets/telaInicial.png';
 import Farmecho4 from '../../assets/Cadastro.png';
 import FarmechoGif from '../../assets/Farmecho.gif';
 import PomodoroGif from '../../assets/Pomodoro.gif';
+import Quebra from '../../assets/quebra.png';
 
 const worksData = [
   {
     title: "Farmecho",
-    description: "Sistema de gerenciamento para agricultura urbana. CRUD em funcionamento com Microsoft SQL Server",
+    description: "Sistema de gerenciamento focado em agricultura urbana. CRUD em funcionamento com Microsoft SQL Server",
     image: FarmechoGif,
     technologies: "C#, .Net, MSSQL",
     buttonText: "Acesse",
@@ -23,7 +24,7 @@ const worksData = [
   },
   {
     title: "PomodoroBeats",
-    description: "Site para uso da técnica de concetração Pomodoro aliada ao uso de lo-fi.",
+    description: "Plataforma que combina a técnica Pomodoro com músicas Lo-Fi para aumentar a concentração e a produtividade",
     image: PomodoroGif,
     technologies: "Bootstrap, HTML, JS",
     buttonText: "Saiba mais",
@@ -50,7 +51,7 @@ const worksData = [
 const Works = () => {
   return (
     <section id="works">
-      <h2 className="worksTitle">Meu Portfólio</h2>
+      <h2 className="worksTitle">- Projetos -</h2>
       <Swiper
         className="worksSwiper"
         modules={[Navigation, Pagination]}
@@ -86,6 +87,10 @@ const Works = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div>
+      <img src={Quebra} alt="Quebra de pagina" className='Quebra2'/>
+      </div>
+     
     </section>
   );
 }

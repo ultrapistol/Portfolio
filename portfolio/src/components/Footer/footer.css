@@ -1,0 +1,19 @@
+.footer{
+    width: 100vw;
+    height: 2rem;
+    background: #272925 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+    font-family: 'NeueHaas';
+    letter-spacing: 1px;
+}
+
+@font-face {
+    font-family: 'NeueHaas';
+    src: url('fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+ }

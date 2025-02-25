@@ -137,3 +137,16 @@
     border-color: #232323;
     font-weight: bold;
 }
+
+.Quebra2{
+    height: 10rem;
+    align-items: center;
+    padding-left: 42%;
+}
+
+@media (max-width: 768px) {
+    .Quebra2 { 
+        height: 10rem;
+        padding-left: 120px; /* Ajusta o padding para telas menores */
+    }
+}

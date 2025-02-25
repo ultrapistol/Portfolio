@@ -21,7 +21,7 @@ Hoje, aplica sua experiência em C#, React, SQL, JavaScript, Python, CSS e HTML 
             <img src={UiDesign} alt="UiDesign" className="skillBarImg1" />
             <div className="skillbartext">
               <h2 h2 className="skillbartextTitle">UX/UI Design</h2>
-              <p>Criação com estética, grids bem ajustados e usabilidade mostram que você tem um olhar refinado para criar interfaces intuitivas e atraentes.</p>
+              <p>Criação com estética, grids bem ajustados e usabilidade demonstram um olhar refinado para criar interfaces intuitivas e atraentes.</p>
             </div>
           </div>
 

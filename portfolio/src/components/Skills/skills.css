@@ -196,7 +196,7 @@
     }
 }
 
-/* Aplicando a animação de borda com LED */
+
 .skillBar:hover {
     animation: ledBorder 1.5s infinite;
 }
@@ -225,11 +225,11 @@
     }
 
     .skillBar {
-        flex-direction: column; /* Coloca os itens da barra em uma coluna em telas menores */
+        flex-direction: column; 
         align-items: flex-start;
         padding: 1rem 1.5rem;
         font-size: 0.8rem;
-        width: 80%;  /* Garante que a barra ocupe toda a largura disponível */
+        width: 80%; 
     }
 
     .skillbartextTitle {
