@@ -102,9 +102,9 @@
     font-family: 'Monorama';
 }
 
-/* 🔹 Media Queries para Responsividade 🔹 */
+/*  Responsividade */
 
-/* Ajustes para telas menores (tablets e celulares grandes) */
+/* Ajustes para telas menores */
 @media (max-width: 768px) {
     .ContactTitle {
         font-size: 2rem;
@@ -125,7 +125,7 @@
     }
 
     .links {
-        flex-direction: column;
+
         align-items: center;
     }
 
@@ -134,7 +134,7 @@
     }
 }
 
-/* Ajustes para telas muito pequenas (celulares pequenos) */
+/* Ajustes para telas muito pequenas */
 @media (max-width: 480px) {
     .ContactTitle {
         font-size: 1.8rem;
@@ -158,3 +158,4 @@
         height: 1.8rem;
     }
 }
+

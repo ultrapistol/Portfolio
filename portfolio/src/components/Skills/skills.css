@@ -76,7 +76,7 @@
 /* Responsividade sem mexer no fundo */
 @media screen and (max-width: 1024px) {
     #skills {
-        padding: 0 2rem; /* Ajustando o padding para não afetar a imagem */
+        padding: 0rem; /* Ajustando o padding para não afetar a imagem */
     }
     
     .skillTitle {
@@ -93,7 +93,7 @@
 
 @media screen and (max-width: 768px) {
     #skills {
-        padding: 0 1.5rem; /* Ajustando o padding */
+        padding: 0 0rem; /* Ajustando o padding */
         background-size: 120%;
     }
     

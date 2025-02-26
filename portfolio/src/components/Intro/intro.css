@@ -140,7 +140,7 @@
 
 @media screen and (max-width:840px){
    .bgProfile{
-      right: -10vw;
+      right: 10vw;
       opacity: 40%;
    }
    .introContent{
@@ -152,6 +152,9 @@
    .foguete{
       opacity: 0%;
    }
+   .btnLinkedin, .btnGithub, .btnCurriculum{
+      padding-top: 5rem;
+   }
 }
 
 @media screen and (max-width:480px){
@@ -159,6 +162,10 @@
       right: -30vw;
       opacity: 40%;
    }
+   .foguete{
+      opacity: 0%;
+   }
+   
 }
 
 
