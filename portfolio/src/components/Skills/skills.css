@@ -1,19 +1,27 @@
 @font-face {
     font-family: 'NeueHaas';
-    src: url('fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    src: url('/fonts/NeueHaasDisplayLight.ttf') format('truetype'),
+        url('/fonts/NeueHaasDisplay-Mediu.woff2') format('woff2'),
+        url('/fonts/NeueHaasDisplay-Mediu.woff') format('woff');
     font-weight: lighter;
     font-style: normal;
+    font-display: swap;
+
  }
  
  @font-face {
     font-family: 'ABC-mono';
-    src: url('fonts/abc-favorit-mono-book.otf') format('opentype');
+    src: url('/fonts/abc-favorit-mono-book2.otf') format('opentype'),
+         url('/fonts/ABCFavoritMono-Book.woff2') format('woff2'),
+         url('/fonts/ABCFavoritMono-Book.woff') format('woff'),
+         url('/fonts/ABCFavoritMono-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
  }
  @font-face {
     font-family: 'NeueHaasXthin';
-    src: url('fonts/NeueHaasDisplayThin.ttf') format('truetype');
+    src: url('/fonts/NeueHaasDisplayThin.ttf') format('truetype');
     font-weight: lighter;
     font-style: normal;
  }
@@ -23,6 +31,7 @@
     src: url('/fonts/Monorama-Regular') format('truetype');
     font-weight: lighter;
     font-style: normal;
+    font-display: swap;
  }
 
 #skills {
