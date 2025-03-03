@@ -28,7 +28,9 @@
 
  @font-face {
     font-family: 'Monorama';
-    src: url('/fonts/Monorama-Regular') format('truetype');
+    src: url('/fonts/Monorama-Regular.ttf') format('truetype'),
+         url('/fonts/Monorama-Regular2.woff2') format('woff2'),
+         url('/fonts/Monorama-Regular1.woff') format('woff');
     font-weight: lighter;
     font-style: normal;
     font-display: swap;
