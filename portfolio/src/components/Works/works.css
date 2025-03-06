@@ -150,3 +150,12 @@
         padding-left: 220px; /* Ajusta o padding para telas menores */
     }
 }
+
+@media screen and (max-width: 480px) {
+    .Quebra2{
+        height: 10rem;
+        align-items: center;
+        padding-left: 18%;
+        display: flex;
+    }
+}
