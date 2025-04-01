@@ -152,6 +152,7 @@
     .links {
         flex-direction: row;
         align-items: center;
+        display: flex;
     }
 
     .whatsappIcon, .githubIcon, .linkedinIcon {
@@ -159,3 +160,33 @@
     }
 }
 
+/* Ajustes para telas extra pequenas (máx. 360px) */
+@media (max-width: 360px) {
+    .ContactTitle {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .contactDesc {
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 0 0.8rem;
+    }
+
+    .submitBtn {
+        font-size: 0.75rem;
+        padding: 0.4rem 1.5rem;
+        min-width: 100px;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column; /* Muda para coluna para caber melhor */
+        align-items: center;
+        gap: 0.8rem;
+    }
+
+    .whatsappIcon, .githubIcon, .linkedinIcon {
+        height: 1.5rem;
+    }
+}
