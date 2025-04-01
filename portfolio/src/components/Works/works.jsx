@@ -9,6 +9,7 @@ import Farmecho1 from '../../assets/login.png';
 import Farmecho2 from '../../assets/CadastroCliente.png';
 import Farmecho3 from '../../assets/telaInicial.png';
 import Farmecho4 from '../../assets/Cadastro.png';
+import APIgif from '../../assets/APIgif.gif';
 import FarmechoGif from '../../assets/Farmecho.gif';
 import PomodoroGif from '../../assets/Pomodoro.gif';
 import Quebra from '../../assets/quebra.png';
@@ -31,12 +32,12 @@ const worksData = [
     buttonLink: "https://ultrapistol.github.io/PomodoroBeats/LandindPage.html"
   },
   {
-    title: "Projeto 3",
-    description: "Descrição breve do projeto 3.",
-    image: "/portfolio/src/assets/projeto3.jpg",
-    technologies: "Vue.js, Firebase, Express",
+    title: "API Super Herói",
+    description: "API para gerenciar um banco de dados de heróis, permitindo operações CRUD e consultas dinâmicas.",
+    image: APIgif,
+    technologies: "C#, MSSQL",
     buttonText: "Saiba mais",
-    buttonLink: "https://meusite.com/projeto3"
+    buttonLink: "https://github.com/ultrapistol/SuperHeroAPI"
   },
   {
     title: "Projeto 4",
